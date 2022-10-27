@@ -3,7 +3,7 @@ class alumno():
         self.nombre = nombre
         self.nota = nota
     def __str__(self):
-        return "Se ha creado el alumno {}".format(self.nombre)
+        return "Se ha creado el alumno {} con nota {}".format(self.nombre, self.nota)
 
 Daniel_Lopez = alumno("Daniel Lopez", 10)
 Juan_Perez = alumno("Juan Perez", 7)
