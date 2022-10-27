@@ -2,3 +2,6 @@
 
 def determinante(matriz):
     return (matriz[0][0]*matriz[1][1]*matriz[2][2]*matriz[3][3]*matriz[4][4]*matriz[5][5])+(matriz[1][0]*matriz[0][0]*matriz[0][0]*matriz[0][0]*matriz[0][0])+(matriz[0][0]*matriz[0][0])
+
+
+matriz = []
